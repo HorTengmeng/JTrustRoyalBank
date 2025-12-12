@@ -13,6 +13,9 @@
     height: 150px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header-top {
@@ -79,7 +82,7 @@
     padding: 15px 40px;
     position: sticky;
     top: 0;
-    z-index: 0;
+    z-index: 100;
 }
 
 .logo img {
@@ -649,27 +652,31 @@
         padding: 0 15px;
     }
 
-    .header{
+    .header {
         height: auto;
-        box-shadow: 0 1px 3px rgba(0,0,0, 0.1);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
 
-    .header-top{
+    .header-top {
         display: none;
     }
-    .header-bot{
+
+    .header-bot {
         justify-content: space-between;
         padding: 10px 15px;
         height: auto;
     }
-    .logo img{
+
+    .logo img {
         height: 35px;
         width: auto;
     }
-    .main{
+
+    .main {
         display: none;
     }
-    .btn-login{
+
+    .btn-login {
         order: 2;
         background-color: transparent;
         color: #00aeef;
@@ -677,7 +684,8 @@
         padding: 6px 10px;
         font-size: 13px;
     }
-    .slide-box{
+
+    .slide-box {
         margin-top: 15px;
         margin-bottom: 25px;
         min-height: 180px;
@@ -686,122 +694,152 @@
         background-size: cover;
         align-items: center;
     }
-    .slide-box .hero-content{
+
+    .slide-box .hero-content {
         width: 100%;
         text-align: left;
     }
-    .hero-content h1{
+
+    .hero-content h1 {
         font-size: 1.2rem;
         line-height: 1.1;
         margin-bottom: 5px;
     }
-    .hero-content p{
+
+    .hero-content p {
         font-size: 0.8rem;
         margin-bottom: 10px;
     }
-    .btn-learn-more{
+
+    .btn-learn-more {
         padding: 8px 15px;
         font-size: 0.8rem;
     }
-    .main-row{
+
+    .main-row {
         flex-direction: column;
         gap: 40px;
         margin-top: 20px;
     }
-    .digital-banking{
+
+    .digital-banking {
         width: 100%;
         height: auto;
         min-height: 250px;
         padding: 25px;
     }
-    .digital-banking h2{
+
+    .digital-banking h2 {
         font-size: 1.8rem;
         margin-bottom: 5px;
     }
-    .digital-banking p{
+
+    .digital-banking p {
         font-size: 1.1rem;
         margin-bottom: 20px;
     }
-    .card-row{
+
+    .card-row {
         flex-direction: column;
         gap: 15px;
     }
-    .card{
+
+    .card {
         width: 100%;
         height: 180px;
     }
-    .currency-converter{
+
+    .currency-converter {
         width: 100%;
     }
-    .converter-form{
+
+    .converter-form {
         flex-direction: column;
         gap: 15px;
     }
-    .input-group{
+
+    .input-group {
         width: 100%;
     }
-    .swap-icon{
+
+    .swap-icon {
         margin: 10px 0;
         transform: rotate(90deg);
     }
-    .result-display{
+
+    .result-display {
         font-size: 1.5rem;
     }
-    .con-main{
+
+    .con-main {
         margin: 20px 0;
     }
-    .panel{
+
+    .panel {
         padding: 20px;
         margin: 20px 0;
     }
-    .panel-header h2{
+
+    .panel-header h2 {
         font-size: 1.5rem;
     }
-    .panel-header p{
+
+    .panel-header p {
         font-size: 1rem;
     }
-    .panel-btn{
+
+    .panel-btn {
         position: static;
         display: block;
         margin-bottom: 20px;
     }
-    .panel-carousel{
+
+    .panel-carousel {
         padding-bottom: 5px;
     }
-    .panel-img{
+
+    .panel-img {
         width: 250px;
         height: 200px;
     }
-    .footer{
+
+    .footer {
         padding: 30px 15px 0;
     }
-    .footer-container{
+
+    .footer-container {
         grid-template-columns: 1fr;
         gap: 30px;
         padding-bottom: 30px;
     }
-    .qr-section{
+
+    .qr-section {
         text-align: left;
     }
-    .logo-social-row{
+
+    .logo-social-row {
         flex-direction: column;
         align-items: flex-start;
     }
-    .footer-logo{
+
+    .footer-logo {
         margin-bottom: 15px;
     }
-    .social-icons{
+
+    .social-icons {
         justify-content: flex-start;
         margin-bottom: 15px;
     }
-    .footer-bottom{
+
+    .footer-bottom {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
         padding: 15px 0;
         font-size: 14px;
     }
-    .footer-links{
+
+    .footer-links {
         flex-direction: column;
         gap: 10px;
     }
