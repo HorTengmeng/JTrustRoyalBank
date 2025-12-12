@@ -11,4 +11,20 @@ Project Title : J Trust Royal Bank
 <img width="379" height="770" alt="iPhone-13-PRO-127 0 0 1 (4)" src="https://github.com/user-attachments/assets/aa608870-67d3-42c6-aeb7-92a818b8b3c3" />
 
 
+Implemented Features :
++layout Features
+  -Responsive Design
+  -Sticky Header
+  -Grid and Flexbox Layout 
++Header
+  -Top Headbar : Search Icons,Links for about us,and contact us,Login button,Change languages button
+  -Botom : Header : Primary Menu , Personal banking,Affluent Banking,SME,CorporateBanking,News,Promotion each has drop dowm icon
++Main Container
+  -Slide Bar
+  -Digital Banking Section and Currency Converter and Lastest Promotion Panel
++Footer 
+  -Four Coloumn : Carrers,Privacy and Security,Cosumer Protection Scan and Connect , Qr image and Social Icons
+
+
+
 
