@@ -1,7 +1,7 @@
 Full name : Hor Tengmeng
 Module 1 : Responsive Web Pages
 Project Title : J Trust Royal Bank
-![Uploading Screenshot 2025-12-12 091748.png…]()
+<img width="1920" height="1080" alt="Screenshot 2025-12-12 091748" src="https://github.com/user-attachments/assets/ccd983f1-ae27-442e-8774-7a61b6f3e39e" />
 <img width="1920" height="1080" alt="Screenshot 2025-12-12 091757" src="https://github.com/user-attachments/assets/a779240c-828b-4b02-9a1c-9c8a3e03f385" />
 <img width="1920" height="1080" alt="Screenshot 2025-12-12 091810" src="https://github.com/user-attachments/assets/cf4eabb8-aa98-4f6a-b230-39eba7165ad6" />
 
