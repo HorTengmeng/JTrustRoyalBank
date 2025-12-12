@@ -26,5 +26,14 @@ Implemented Features :
   -Four Coloumn : Carrers,Privacy and Security,Cosumer Protection Scan and Connect , Qr image and Social Icons
 
 
++Source Image From J Trust Royal Bank Website
++Font : Google Fonts
+
++How to run project locally
+-Open the cmd or gitbash on the folder that stor source code
+Use Command = git clone [Repo URL]
+Use Command = Cd [Project Name]
+
+
 
 
